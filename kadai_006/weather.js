@@ -1,5 +1,4 @@
-$(function() {
-    $('h1').on('click',function(){
+$(window).on('load', () => {
       $('#target').addClass('heading');
     });
-  });
+
